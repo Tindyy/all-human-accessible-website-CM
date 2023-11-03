@@ -27,3 +27,21 @@ Ontwerp en maak voor een opdrachtgever een component/pagina/site toegankelijk vo
 
 
 This project is licensed under the terms of the [MIT license](./LICENSE).
+
+## feedback
+
+-flow uitschrijven: hoe gaat een gebruiker door de website heen?
+-per stakeholder vraagstelling voor hp en fp per sdg een score opgeven.
+-welk onderdeel wil je helemaal goed hebben?
+
+eerst stakeholders, dan benoemen, dan sdgs, dan resultaten
+overzichtspage.
+
+vergelijking van de stakeholders misschien?
+
+
+
+
+
+
+

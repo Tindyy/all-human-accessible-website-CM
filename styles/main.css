@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: #333;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.homepage{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr repeat(2, 2fr) 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+#navbar{
+    grid-area: 1 / 1 / 2 / 3; 
+    background-color: #f6f2f6;
+    display: flex;
+    padding: 1% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul#navbar li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+ul#navbar li a{
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.footpr{
+    box-sizing: border-box;
+    border-color: #f6f2f6;
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.footpr h1{
+    color: #cee714;
+    -webkit-text-stroke: 0.05px  #3333334a;
+    font-size: 46px;
+}
+
+.footpr h3{
+    color: #f6f2f6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.footpr .rating {
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    padding: 8px;
+    border: 7px solid green;
+    color: #f6f2f6;
+    text-align: center;
+    font-size: 40px;
+    float: right;
+}
+
+.handpr{
+    grid-area: 3 / 2 / 4 / 3;
+}
+
+.handpr h1{
+    color: #cee714;
+    -webkit-text-stroke: 0.05px  #3333334a;
+    font-size: 46px;
+}
+
+.handpr h3{
+    color: #f6f2f6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.handpr .rating{
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    padding: 8px;
+    border: 7px solid red;
+    color: #f6f2f6;
+    text-align: center;
+    font-size: 40px;
+    float: right;
+}
+
+.inforati{
+    position: relative;
+}
+
+.logimgcat{
+    color: #f6f2f6;
+    grid-area: 2 / 1 / 4 / 2;
+    align-items: center;
+    width: 600px;
+}
+
+button{
+    text-decoration: none;
+    color: #333;
+    -webkit-text-stroke: 0.05px rgba(51, 51, 51, 0.769)a;
+    background-color: #cee714;
+}
+
+.cat{
+    background-color: #f6f2f6;
+    color: #cee714;
+    margin-top: 4rem;
+    display: flex;
+    padding: 1% 2%;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.cat h3{
+    -webkit-text-stroke: 0.05px  #3333334a;
+}
